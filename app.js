@@ -28,7 +28,7 @@ function atualizarLista() {
         li.textContent = amigo;
         
         const buttonRemover = document.createElement("button");
-        buttonRemover.textContent = "X";
+        buttonRemover.textContent = "x";
         buttonRemover.onclick = () => removerAmigo(index);
         
         li.appendChild(buttonRemover);
